@@ -1,9 +1,10 @@
+'''to draw the anti koch snowflake curve'''
 from turtle import *
 Tur1 = turtlemove(1000,1000)
 
 def koch_snow_flake_production(t,length,angle):
 	'''replace each of the forward movement with a new production
-	F -> F+F--F+F'''
+	F -> F-F++F-F'''
 	
 	t.fw(length)
 	t.lt(angle)

@@ -1,0 +1,8 @@
+This is a minimal implimentation of the kids tool logo.
+I have tried to draw some fuctle figures using this minimal functions.
+
+turtle.py    -----> a simple python class to create turtle graphics.
+anti_koch.py -----> a simple python code to draw  anti_koch curve.
+snowflake.py -----> a simple python code to draw  koch snowflake.
+snowflake_quadratic_type_1.py----> a simple python code to draw koch snowflake quadratic curve (90) type1
+snowflake_quadratic_type_2.py----> a simple python code to draw koch snowflake quadratic cureve type2. 
