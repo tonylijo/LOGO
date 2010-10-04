@@ -21,6 +21,8 @@ class turtlemove:
 		w = self.canvas.create_line(startx,starty,endx,endy)
 		self.centerx = endx
 		self.centery = endy
+	def bw(self,backward):
+		self.fw(-backward)
 	def rt(self,angle):
 		self.angle = self.angle + angle
 	def lt(self,angle):
